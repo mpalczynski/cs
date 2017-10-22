@@ -1,0 +1,27 @@
+form {
+    width: 500px;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+form label {
+    margin: 10px 0;
+    display: block;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+}
+
+form input[type="button"] {
+    border: none;
+}
